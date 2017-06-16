@@ -1,1 +1,1 @@
-# drupal_dw_ui
+# Docuware UI Components integration for Drupal

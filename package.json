@@ -1,17 +1,17 @@
 {
-  "name": "drupal_dw_ui",
-  "version": "0.1",
-  "description": "",
-  "author": "Ivaylo Velikov",
-  "license": "ISC",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-exec": "^2.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "name": "drupal_dw_ui",
+    "version": "0.0.1",
+    "description": "Docuware UI Components integration for Drupal",
+    "author": "Ivaylo Velikov",
+    "license": "ISC",
+    "main": "js/host.js",
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-exec": "^2.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
 }
