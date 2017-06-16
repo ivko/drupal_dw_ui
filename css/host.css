@@ -1,0 +1,9 @@
+#drupal_dw_ui_frame {
+    width:100%;
+    height:100%;
+    border: 1px solid #c7c9c7;
+}
+.dw-ui-menu {
+    overflow: auto;
+    max-height: 600px;
+}

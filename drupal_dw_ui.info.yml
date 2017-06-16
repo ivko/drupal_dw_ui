@@ -1,0 +1,5 @@
+name: DrupalDwUI
+type: module
+description: Docuware UI Components integration for Drupal
+package: DocuWare
+core: 8.x

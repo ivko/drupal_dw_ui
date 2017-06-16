@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function drupal_dw_ui_theme() {
+  return array(
+    'dw_ui_host' => array(
+      'template' => 'host',
+      'variables' => array(
+          'app_path' => base_path() . drupal_get_path('module', 'drupal_dw_ui') . '/vendor/dw_components',
+      ),
+    ),
+  );
+}

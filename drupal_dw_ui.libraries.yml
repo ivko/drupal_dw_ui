@@ -1,0 +1,15 @@
+mootools_core:
+    version: VERSION
+    js:
+        'https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.js':  {type: external}
+host:
+    version: VERSION
+    js:
+        js/host.js: {}
+    dependencies:
+        - drupal_dw_ui/mootools_core
+        - core/jquery
+        - core/drupal
+    css:
+        theme:      
+            css/host.css: {}

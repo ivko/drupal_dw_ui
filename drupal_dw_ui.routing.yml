@@ -1,0 +1,7 @@
+drupal_dw_ui.host:
+    path: /dw/ui
+    defaults:
+        _title: Docuware UI Components
+        _controller: Drupal\drupal_dw_ui\Controller\ComponentsController::render
+    requirements:
+        _permission: 'access content'
